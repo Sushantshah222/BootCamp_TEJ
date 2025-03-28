@@ -12,8 +12,8 @@ const greeting = (name)=> {
     };
 };
 
-console.log(greeting("Sushant"));
-console.log(greeting());
+// console.log(greeting("Sushant"));
+// console.log(greeting());
 
 
 
@@ -31,3 +31,15 @@ console.log(greeting());
 
 // console.log(greeting("Sushant"));
 // console.log(greeting());
+
+
+
+
+// watched solution III
+
+// const greeting = (name) => name ? `Hello${name}`: `Hello!`;
+
+// console.log(greeting("Sushant"));
+// console.log(greeting());
+
+
