@@ -1,12 +1,16 @@
 // YOUR CODE BELOW
 
-
-// const olnyOdds= (num)=>{
-
-
-// };
-let num = 10
-for (let i=0; i<num-1; i++){
-    console.log(2*i+1);
+// self solution
+const onlyOdds= (num)=>{
     
-}
+    let sum= 0;
+    for (let i=1; i<=num; i++){
+        if(i%2 === 1){
+            sum+=i;
+        }
+
+    };
+    return sum;
+};
+
+console.log(onlyOdds(10));
