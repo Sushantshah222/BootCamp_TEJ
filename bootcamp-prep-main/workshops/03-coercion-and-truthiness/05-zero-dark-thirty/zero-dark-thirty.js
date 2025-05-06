@@ -14,6 +14,5 @@ const zeroDarkThirty = (num) => {
     }
     return parseFloat(results);
 };
-
 console.log(zeroDarkThirty(0)); // 0  
 console.log(zeroDarkThirty(100203)); // 123
